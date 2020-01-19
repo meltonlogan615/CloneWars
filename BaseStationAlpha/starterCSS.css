@@ -1,0 +1,23 @@
+:root {
+	--main-font: sans-serif;
+
+}
+
+html {
+	
+}
+
+header {
+	text-decoration-color: white;
+}
+
+header nav {
+	text-decoration: none;
+	display: inline;
+	float: right;
+	padding: 1.5rem;
+}
+
+footer {
+	
+}

@@ -1,0 +1,137 @@
+@font-face {
+	font-family: medium;
+	src: url(fonts/cereal-medium.woff2);
+}
+
+@font-face {
+	font-family: bold;
+	src: url(fonts/cereal-bold.woff2);
+}
+
+@font-face {
+	font-family: book;
+	src: url(fonts/cereal-book.woff2);
+}
+
+html {
+	font-family: medium;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1.75rem;
+	color: rgba(0,0,0,0.8);
+}
+
+.aboveFoldImg {
+	position: absolute;
+	z-index: -1;
+	left: -1rem;
+	right: -1rem;
+	top: -1rem;
+
+}
+
+
+.logo img{
+	display: inline;
+	float: left;
+	margin-left: 1.5rem;
+	padding-top: 2rem;
+	size: auto;
+	color: black;
+	z-index: 1;
+	}
+
+
+.topNavigation {
+	display: inline;
+	margin-right: 2rem;
+
+}
+
+.topNavigation a {
+	font-family: book;
+	font-size: 0.85rem;
+	letter-spacing: 0.25px;
+	color: rgba(242, 242, 242, 0.9);
+	text-decoration: none;
+	float: right;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	margin-top: 0.75rem;
+	margin-right: 0.25rem;
+	margin-left: 0.5rem;
+}
+
+.topNavigation a:hover {
+	border-bottom: 2px solid white;
+}
+
+.bookNow {
+	margin-top: 6.5rem;
+	margin-left: 4rem;
+	border-radius: 5px;
+	background-color: white;
+	width: 25%;
+	padding: 2rem;
+	height: 27rem;
+	color: rgba(0,0,0,0.75);
+}
+
+.bookNow label {
+	font-size: 0.75rem;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: rgba(0,0,0,0.5);
+}
+
+.bookNow input, select {
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	font-size: 1rem;
+	width: 100%;
+	padding: 0.75rem;
+}
+.bookNow .halfSize {
+	width: 50%;
+	display: inline;
+}
+
+.bookNow button {
+	font-size: 1rem;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	background-color: red;
+	color: white;
+	float: right;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: 1rem;
+}
+.note {
+	border: 1px solid white;
+	color: rgba(242, 242, 242, 0.9);
+	float: right;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.exploreButton {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+
+footer {
+	
+}
